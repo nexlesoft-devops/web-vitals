@@ -30,4 +30,3 @@ jobs:
     - run: npm install web-vitals
     - run: npm run build --if-present
  #   - run: npm test
-    - run:  npm run start
