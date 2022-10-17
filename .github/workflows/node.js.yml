@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "develop" ]
   pull_request:
-    branches: [ "feature" ]
+    branches: [ "main" ]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: 16.17.1 
+        node-version: 16 
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
